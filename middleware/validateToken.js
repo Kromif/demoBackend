@@ -1,6 +1,7 @@
 // src/middleware/validateToken.js
 const admin = require("firebase-admin");
 const { logDev, logError } = require("../utils/logger");
+const { sendError } = require("../utils/responseHandler");
 
 module.exports = async function validateToken(req, res, next) {
   try {
