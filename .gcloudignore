@@ -1,0 +1,19 @@
+# Ignorar dependencias locales (instalación en la nube)
+node_modules/
+
+# Control de versiones y configuraciones
+.git/
+.gitignore
+.gcloudignore
+
+# Logs y temporales
+npm-debug.log
+*.log
+.env
+.env.*
+
+# Pruebas y documentación
+coverage/
+test/
+tests/
+*.md

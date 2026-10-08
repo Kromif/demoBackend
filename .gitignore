@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Archivos y módulos legacy
+*Legacy*.js
+
+# Basura de sistema y temporales
+.DS_Store
+*.log
+
+# Secretos y Entorno
+.env
+.env.*
+*.json
+!package.json
+!package-lock.json
+
+# Llaves de GCP / Firebase Service Accounts
+*-key.json
+serviceAccountKey.json
+gcp-key.json
